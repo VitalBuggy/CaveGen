@@ -42,6 +42,7 @@ These are the different results after 25 itertions of the algorithm
 
 ## Usage
 
+In order to increase n, or run an iteration of the algorithm, press `[SPACEBAR]`
 A "quality of life" feature in this program is seeding. You can pass a seed in as an argument and you will generate the same cave as such
 
 ```sh
