@@ -15,7 +15,7 @@ This is the second project I have fully completed that has something to do with 
 - In order to build, just go into the directory and run `make`
 
  ```sh
- cd CaveGen && make
+ cd CaveGen && make setup && make
  ```
 
 - A binary is going to be created in the folder `bin/`, in order to run it just do
@@ -42,7 +42,7 @@ These are the different results after 20 itertions of the algorithm
 
 ## Usage
 
-In order to increase n, or run an iteration of the algorithm, press `[SPACEBAR]`
+In order to increase `n`, or run an iteration of the algorithm, press `[SPACEBAR]`
 A "quality of life" feature in this program is seeding. You can pass a seed in as an argument and you will generate the same cave as such
 
 ```sh
