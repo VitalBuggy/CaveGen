@@ -7,11 +7,17 @@ This is the second project I have fully completed that has something to do with 
 ### Linux
 
 - Start off by cloning the repository in a folder of your choice
- ```git clone https://github.com/VitalBuggy/CaveGen```
+ ```sh
+ git clone https://github.com/VitalBuggy/CaveGen
+ ```
 - In order to build, just go into the directory and run `make`
- ```cd Cavegen && make```
+ ```sh
+ cd Cavegen && make
+ ```
 - A binary is going to be created in the folder `bin/`, in order to run it just do
- ```./bin/app```
+ ```sh
+ ./bin/app
+ ```
  in the project root
 
 ### Windows
@@ -25,7 +31,9 @@ TODO
 ## Usage
 
 A "quality of life" feature in this program is seeding. You can pass a seed in as an argument and you will generate the same cave as such
-```./bin/app <seed>```
+```sh
+./bin/app <seed>
+```
 
 In the future I plan to add some more bells and whistles such as: dynamically adjustable wall density (the initial ratio of wall cells and empty cells) and saving generated caves as images
 
