@@ -7,17 +7,23 @@ This is the second project I have fully completed that has something to do with 
 ### Linux
 
 - Start off by cloning the repository in a folder of your choice
+
  ```sh
  git clone https://github.com/VitalBuggy/CaveGen
  ```
+
 - In order to build, just go into the directory and run `make`
+
  ```sh
- cd Cavegen && make
+ cd CaveGen && make
  ```
+
 - A binary is going to be created in the folder `bin/`, in order to run it just do
+
  ```sh
  ./bin/app
  ```
+
  in the project root
 
 ### Windows
@@ -28,9 +34,16 @@ TODO
 
 TODO
 
+## Results
+
+These are the different results after 25 itertions of the algorithm
+
+![image](http://github.com/VitalBuggy/CaveGen/blob/master/images/cellular_automaton.jpg?raw=true)
+
 ## Usage
 
 A "quality of life" feature in this program is seeding. You can pass a seed in as an argument and you will generate the same cave as such
+
 ```sh
 ./bin/app <seed>
 ```
