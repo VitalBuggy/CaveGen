@@ -38,7 +38,7 @@ TODO
 
 These are the different results after 25 itertions of the algorithm
 
-![image](http://github.com/VitalBuggy/CaveGen/blob/master/images/cellular_automaton.jpg?raw=true)
+![image](http://github.com/VitalBuggy/CaveGen/blob/master/images/cellular_automaton.png?raw=true)
 
 ## Usage
 
